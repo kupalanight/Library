@@ -1,0 +1,47 @@
+@font-face { 
+    font-family: "Forum"; 
+    src: url("../fonts/Forum/Forum-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 400px; 
+}
+@font-face { 
+        font-family: "Inter"; 
+        src: url("../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: 400px; 
+}
+nav {
+    background-color: #0C0C0E;
+    width: 1440px;
+    height: 90px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    padding: 0 20px 0 20px;
+    box-shadow: 10px 28px 30px 0px #000000;
+    z-index: 0;
+}
+.logo {
+    color: #FFFFFF;
+    font-family: "Forum";
+    font-size: 30px;
+}
+.menu {
+    color:#FFFFFF;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-left: 454px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 400;
+}
+.profile {
+    padding: 20px 0px 20px 40px;
+}
+.Welcome {
+    width: 1440px;
+    height: 600px;
+    background-image: url(../img/image.png);
+}
